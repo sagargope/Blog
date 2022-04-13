@@ -1,0 +1,90 @@
+body{
+  /* background-image:url("Mountain.jpg"); */
+  /* background-size:cover; */
+  margin: 0;
+  background-color: #B9F8D3;
+
+
+}
+.top{
+  /* background-color: #10162F; */
+  position:relative;
+  bottom: 10px;
+  border-bottom: 20px;
+}
+
+.nav{
+  /* background-color: #CEAB93; */
+  background-color: #10162F;
+  border-style: none;
+  font-family:cursive;
+  font-size: 20px;
+  /* border-radius: 20px; */
+  margin: 0;
+  position:relative;
+  bottom: 50px;
+}
+.nav li{
+  float:left;  /* to float everything left side  */
+  list-style:none; /*remove dot from the list */
+  margin: 15px 15px;
+}
+.nav ul{
+  overflow: auto;
+  margin-bottom: 0;/* when you use float that remov eyour background color and to back the bsckground color we use it   You have to use this in ul tag*/
+}
+.nav a{
+  padding : 5px;
+  /* color:#05595B; */
+    color:#E0DDAA;
+  text-decoration: none;
+}
+.search{
+  float:right;
+  padding: 10px 10px;
+}
+.nav input{
+  border-radius:20px;
+  padding: 15px 15px;
+  border-style: double;
+  font-family: cursive;
+  font-size: 15px;
+}
+.boy img{
+  border:10px;
+  background-color:#C5D8A4;
+  border-radius:100%;
+  padding: 2px 2px;
+
+}
+.table{
+  border:2px;
+  padding: 9px;
+  padding-top:2px;
+  margin: 0;
+    /* background-color: #10162F; */
+
+}
+.td{
+  font-family: 'Major Mono Display', monospace;
+  font-size: 30px;
+  color:#E0DDAA;
+}
+.ta{
+  width: 1px;
+  height:1px;
+  background-color: #C5D8A4;
+}
+.connect{
+  padding-left: 50px;
+  font-family: cursive;
+  text-decoration: underline;
+  text-decoration-color: #0F0E0E;
+}
+.center{
+position:relative;
+left:0px;
+top:0px;
+margin: 0px;
+  background-color: #10162F;
+}
